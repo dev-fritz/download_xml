@@ -65,3 +65,4 @@ class Client:
 
     async def close_session(self):
         await self.session.close()
+
